@@ -9,7 +9,7 @@ using Microsoft.ServiceFabric.Services.Runtime;
 
 namespace Stateless1
 {
-    [EventSource(Name = "MyCompany-Test-Stateless1")]
+    [EventSource(Name = "MyCompany-SFException-Stateless1")]
     internal sealed class ServiceEventSource : EventSource
     {
         public static readonly ServiceEventSource Current = new ServiceEventSource();

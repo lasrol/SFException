@@ -47,7 +47,7 @@ namespace Stateless1
                 await Task.Delay(TimeSpan.FromSeconds(1), cancellationToken);
 
                 if (iterations > 10)
-                    throw new Exception("Hello Exception!");
+                    throw new Exception("HelloException!");
             }
         }
     }
